@@ -53,7 +53,7 @@ async function fetchLast_Name() {
       },
       body: JSON.stringify({
         query: `
-          User {
+          query {
             last_name
           }
         `,
@@ -76,7 +76,7 @@ async function fetchId() {
       },
       body: JSON.stringify({
         query: `
-          User {
+          query {
             id
           }
         `,
