@@ -104,3 +104,8 @@ fetchFirst_Name().then(({ first_name }) => {
     title.textContent = id;
   }));
 
+
+/*Im going to learn how to save elements in a database*/
+const nombre = fetchFirst_Name();
+console.log(nombre);
+
