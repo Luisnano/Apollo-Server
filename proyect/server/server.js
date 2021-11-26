@@ -1,4 +1,5 @@
 const { ApolloServer, gql } = require('apollo-server');
+const prompt = require('prompt-sync')();
 
 
 /*Lets try to create a User type and displaying it on de web api*/
@@ -16,7 +17,7 @@ const typeDefs = gql`
 
 const resolvers = {
   Query: {
-    greeting: () => 'Hello GraphQL world!👋',
+    greeting: () => 'Hello GraphQL world!👋'
   },
   Query:{
     first_name: () => 'Luis Fernando',
